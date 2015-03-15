@@ -1,0 +1,55 @@
+body, html{
+	background-color: #AAAAC6;
+	height:100%;
+}
+.head {
+	background-color: #53537C;
+	height:150px;
+	width: 1300px;
+	margin: 20px auto 0 auto;
+	text-align:center;
+	border-radius: 26px;
+}
+h5{
+	padding-top:20px;
+	font-size: 20px;
+}
+h5, p{
+	color:#EEEEF2;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+a{
+	text-decoration: none;
+	color:#AC3030;
+}
+a:hover{
+	text-decoration: underline;
+
+}
+.wrapper{
+	position:relative;
+	width:100%;
+	height:60%;
+}
+#left, #right, .container{
+	display:inline-block;
+	position:absolute;
+}
+#left, #right{
+	height:700px;
+	width:142px;
+	background-color: #53537C;
+}
+#left{
+	left:53px;
+	border-radius: 0 60px;
+}
+#right{
+	right:48px;
+	border-radius: 60px 0;
+}
+.container{
+	left:195px;
+	width:960px;
+	height:700px;
+}
