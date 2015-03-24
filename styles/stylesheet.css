@@ -4,7 +4,7 @@ body, html{
 }
 .head {
 	background-color: #53537C;
-	height:150px;
+	height:180px;
 	width: 1300px;
 	margin: 20px auto 0 auto;
 	text-align:center;
@@ -36,7 +36,7 @@ a:hover{
 	position:absolute;
 }
 #left, #right{
-	height:700px;
+	height:960px;
 	width:142px;
 	background-color: #53537C;
 }
@@ -51,5 +51,10 @@ a:hover{
 .container{
 	left:195px;
 	width:960px;
-	height:700px;
+	height:960px;
+}
+.box {
+	background-color: #000;
+	float:left;
+	display:inline-block;
 }
